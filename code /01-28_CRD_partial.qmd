@@ -346,7 +346,7 @@ geom_label(data = crd_cld_selected,
            aes( x = krate_kgha,
                 y = emmean,
                 label = letter
-                )) +
+                ))
 facet_grid(.~nrate_kgha)
 ```
 
